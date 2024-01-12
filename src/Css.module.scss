@@ -1,0 +1,49 @@
+.esimerkki {
+    .container {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: safe;
+        align-items: center;
+        height: 100px;
+
+        border-color: red;
+        border: solid 11px;
+        opacity: 85%;
+    
+    }
+    
+    .box1 {
+        color: white;
+        width: 80px;
+        height: 50px;
+        background-color: blue;
+        text-align: center;
+        vertical-align: center;
+        /* keskitetään laatikon sisällä oleva teksti */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box2 {
+        background-color: green;
+        width: 80px;
+        color: white;
+        flex-grow: .5;
+        /* body elementillä ei ole fonttikokoa asetettu 
+        -> selaimen oletusfonttikoko = 16px -> 1rem=16px */
+        padding-left: 1rem;
+    }
+    
+    .box3 {
+        background-color: yellow;
+        width: 20px;
+        flex-grow: .5;
+    }
+
+    a {
+        color: red
+    }
+}
+
