@@ -15,7 +15,6 @@ export default function Css() {
           3
         </div>
       </div>
-    <a>punainen väri: div.esimerkki > a</a>
     </div>
   );
 }
